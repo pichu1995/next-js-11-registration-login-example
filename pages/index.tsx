@@ -7,7 +7,7 @@ import { useProducts } from '../lib/hooks';
 const Index = () => {
     const { error, isLoading, summary } = useProducts();
 
-    if (isLoading) return <Loading />;
+    //if (isLoading) return <Loading />;
     if (error) return <ErrorMessage error={error} />;
 
     return (
