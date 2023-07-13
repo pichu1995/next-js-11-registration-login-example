@@ -6,7 +6,7 @@ const Index = () => {
 
     if (error) return <ErrorMessage error={error} />;
 
-    return <h1>Welcome to Nextjs 12 Sample Program devops</h1>;
+    return <h1>Welcome to Nextjs 12 Sample Program devops winner</h1>;
 };
 
 export default Index;
