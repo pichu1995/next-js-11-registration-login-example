@@ -9,7 +9,7 @@ const Index = () => {
 
     //if (isLoading) return <Loading />;
     if (error) return <ErrorMessage error={error} />;
-
+return <h1>Welcome to Nextjs 12 Sample Program</h1>
     return (
         <Panel header="Homepage" id="home">
             <Flex>
